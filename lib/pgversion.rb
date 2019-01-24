@@ -64,12 +64,13 @@ module PGVersion
 
     def eol_dates
       {
-        "10"  => Date.new(2022, 10),
-        "9.6" => Date.new(2021,  9),
-        "9.5" => Date.new(2021,  1),
-        "9.4" => Date.new(2019, 12),
-        "9.3" => Date.new(2018,  9),
-        "9.2" => Date.new(2017,  9),
+        "11"  => Date.new(2023, 11,  9),
+        "10"  => Date.new(2022, 11, 10),
+        "9.6" => Date.new(2021, 11, 11),
+        "9.5" => Date.new(2021,  2, 11),
+        "9.4" => Date.new(2020,  2, 13),
+        "9.3" => Date.new(2018, 11,  8),
+        "9.2" => Date.new(2017, 11,  9),
       }
     end
 
